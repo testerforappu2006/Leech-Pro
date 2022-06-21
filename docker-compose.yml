@@ -1,0 +1,10 @@
+version: version
+services:
+  worker:
+    build: .
+    environment:
+      TG_BOT_TOKEN: $TG_BOT_TOKEN
+      APP_ID: $APP_ID 
+      API_HASH: $API_HASH
+      OWNER_ID: $OWNER_ID
+      AUTH_CHANNEL: $AUTH_CHANNEL
